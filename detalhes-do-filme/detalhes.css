@@ -1,0 +1,23 @@
+.detalhes-filme-container {
+    padding: 100px 120px;
+}
+
+#video-trailer {
+    width: 100%;
+}
+
+.informacoes {
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.informacoes > img {
+    width: 250px;
+    border-radius: 7px;
+    transition: 1s ease-in-out;
+}
+
+.informacoes > img:hover {
+    scale: 1.05;
+}
