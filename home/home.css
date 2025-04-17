@@ -90,3 +90,88 @@ button, input, select {
     border-radius: 7px;
 }
 
+/* RESPONSIVIDADE */
+@media (max-width: 1023px){
+
+    .inputs {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .inputs label {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .inputs input,
+    .inputs select,
+    .inputs button,
+    .pesquisa {
+        width: 100%;
+        height: 40px;        
+    }
+
+    .filtro {
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .card-container {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 40px;
+    }
+
+    .card {
+        width: 40%;
+        height: auto;
+        aspect-ratio: 2 / 3;
+    }
+}
+
+@media (max-width: 768px){
+    .banner {
+        height: 450px;
+        padding: 0 20px;
+        background-position: center top;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div-banner {
+        max-width: 80%;
+        align-items: center;
+    }
+
+    .div-banner h2 {
+        font-size: 2em;
+    }
+
+    .div-banner p {
+        font-size: 1.1em;
+    }
+
+    .filmes-series {
+        padding: 30px 20px;
+    }
+
+    .filmes-series h2 {
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+    }
+}
