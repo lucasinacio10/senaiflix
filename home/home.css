@@ -90,6 +90,10 @@ button, input, select {
     border-radius: 7px;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 /* RESPONSIVIDADE */
 @media (max-width: 1023px){
 
@@ -132,6 +136,25 @@ button, input, select {
         height: auto;
         aspect-ratio: 2 / 3;
     }
+
+    .menu-mobile {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background: #111;
+        padding: 15px;
+        border-radius: 5px;
+    }
+    
+    .menu-mobile a {
+        color: white;
+        text-decoration: none;
+        margin: 10px 0;
+    }
+    
+
 }
 
 @media (max-width: 768px){
